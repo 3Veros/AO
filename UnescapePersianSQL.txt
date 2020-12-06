@@ -1,0 +1,34 @@
+SELECT 
+REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE
+(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE
+(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE
+(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE
+(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE (REPLACE(REPLACE(REPLACE(REPLACE(REPLACE
+(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE
+(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE
+( REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE( REPLACE(  REPLACE
+(REPLACE(REPLACE(  REPLACE( REPLACE(REPLACE(REPLACE(
+                  REPLACE(
+                             REPLACE(
+                                        REPLACE(REPLACE(REPLACE(YourColumn, '%3C', '<'), '%3E', '>'), '%u067E', N'پ' ),
+                                        '%u0628',
+                                        N'ب'
+                                    ),
+                             '%u0647',
+                             N'ه'
+                         ),
+                  '%20',
+                  ' '
+              ),'%u062F',N'د'),'%u0644',N'ل')
+			  ,'%u06CC',N'ی'),'%u06A9',N'ک'),'%u0627',N'ا'),'%u0622',N'آ')
+			  ,'%u067E',N'پ'),'%u062A',N'ت'),'%u062B',N'ث'),'%u062C',N'ج')
+			  ,'%u0686',N'چ'),'%u062D',N'ح'),'%u062E',N'خ'),'%u0630',N'ذ'),'%u0632',N'ز'),'%u0698',N'ژ'),'%u0633',N'س')	,'%u0634',N'ش')
+			  ,'%u0634',N'ش'),'%u0635',N'ص'),'%u0636',N'ض'),'%u0637',N'ط'),'%u0638',N'ظ'),'%u0639',N'ع'),'%u063A',N'غ'),'%u0642',N'ق')
+			  ,'%u06AF',N'گ'),'%u0644',N'ل'),'%u0645',N'م'),'%u0646',N'ن'),'%u0648',N'و'),'%u0631',N'ر'),'%26','&'),'3B',';'),'%0A',''),'%29',')'),'%28','(')
+			  ,'%3A',':')
+			  ,'%u0626',N'ئ'),'%u060C',N'،'),'%u064B',N'ً'),'%u0641',N'ف'),'%uD83E',' '),'%uDD19',' '),'&nbsp%',' '),'%u0621',N'ء'),'&zwnj%',' '),'%u06F1',N'۱')
+			  ,'%3D','='),'%22','"'),'%u06F5',N'۵'),'%u06F2',N'۲'),'%u06F3',N'۳'),'%u06F4',N'۴'),'%u06F6',N'۶'),'%u06F7',N'۷'),'%u06F8',N'۸'),'u06F9',N'۹'),'u06F0',N'۰'),
+			  '%u2705',N'✅'),'%21',N'!'),'%23',N'#'),'%25',N'%'),'%5E',N'^'),'%26',N'&'),'%7C',N'|'),'%2C',N','),'%3F',N'?'),'%u061F',N'؟'),'%7B',N'{'),'%7D',N'}'),
+			  '%5B',N'['),'%5D',N']'),'',''),'%u061B',N'؛'),'%u064D',N'ٍ'),'%u064C',N'ٌ'),'%u064B',N'ً'),'%BB',N'»'),'%AB',N'«'),'%u0640',N'ـ'),'%u06C0',N'ۀ'),
+			  '%u0651',N'ّ'),'%u0650',N'ِ'),'%u064F',N'ُ'),'%u064E',N'َ'),'%u0623',N'أ'),'%u0625',N'إ'),'%u0624',N'ؤ'),'%u064A',N'ي'),'%u0629',N'ة') AS NoteContent
+FROM YourTable  
